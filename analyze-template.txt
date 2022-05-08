@@ -1,0 +1,24 @@
+bài thực hành: https://www.w3schools.com/w3css/tryw3css_templates_band.htm
+
+1. Phân tích
+    1. Header
+    2. Slider
+    3. Content
+        - About
+        - Tour
+        - Contact
+        - Image
+    4. Footer
+2. Dựng base (nền móng)
+3. Xây dựng từng phân theo phân tích
+4. Hoàn thiện
+
+Những phần thường gặp trên giao diện website
+1. Header (Đầu trang)
+2. Navigation (Thanh điều hướng hay menu ẩn hiện)
+3. Breadcrumb (breadcrumb navigation là một cách hiệu quả để giúp người dùng định vị vị trí trong website)
+4. Sidebar (Cột chứa nội dung bên trái và phải)
+5. Slider (Phần trình chiếu khái quát của trang)
+6. Banner 
+7. Content (Nội dung chính)
+8. Footer (Chân trang)
