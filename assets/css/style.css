@@ -28,9 +28,14 @@ Nguyên Tắc làm 1 trang website
 }
 
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     height: 46.5px;
     background-color: #000;
-    display: block;
+    /* display: block; */
+    z-index: 1;
 }
 .nav {
     display: inline-block;
@@ -105,11 +110,29 @@ Nguyên Tắc làm 1 trang website
 }
 
 .slider {
-    min-height: 500px;
-    background-color: #333;
+    position: relative;
+    margin-top: 46.5px;
+    padding-top: 50%;
+    background: url('/assets/images/slider/slider1.jpg') top center / cover no-repeat;
 }
 
+.slider .text-content {
+    position: absolute;
+    bottom: 47px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
 
+.slider .title {
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.slider .content {
+    font-size: 15px;
+}
 
 .content {
 
