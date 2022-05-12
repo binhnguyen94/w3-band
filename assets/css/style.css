@@ -23,8 +23,12 @@ Nguyên Tắc làm 1 trang website
     4. Kiểu dáng (Kiểu chữ, các hình, .....)
 */
 
-.main {
+.text-white {
+    color: #fff !important;
+}
 
+.clear {
+    clear: both;
 }
 
 .header {
@@ -186,6 +190,98 @@ Nguyên Tắc làm 1 trang website
 .content .member-item .member-img {
     width: 154px;
     border-radius: 4px;
+}
+
+/* Tour section */
+.content .tour-section {
+    background-color: #000;
+}
+
+.tour-section .tickets-list {
+    background-color: #fff;
+    color: #757575;
+    margin-top: 40px;
+    border: 1px solid #ccc;
+    list-style: none;
+}
+
+.tour-section .tickets-list li {
+    padding: 9px 16px;
+    font-size: 15px;
+    border-bottom: 1px solid #ddd;
+}
+    
+
+.tour-section .tickets-list .sold-out {
+    background-color: #f44336;
+    color: #fff;
+    margin-left: 16px;
+    padding: 3px 4px;
+}
+
+.tour-section .tickets-list .quanlity {
+    float: right;
+    margin-right: 16px;
+    background-color: #000;
+    width: 24px;
+    height: 24px;
+    color: #fff;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 50%;
+    margin-top: -2px;
+}
+
+.place-list {
+    padding: 32px 0;
+    margin: 0 -8px;
+}
+
+.place-item {
+    float: left;
+    width: 33.33333%;
+    padding: 8px;
+}
+
+.place-img {
+    width: 100%;
+    display: block;
+}
+
+.place-body {
+    background-color: #fff;
+    color: #000;
+    padding: 0 16px;
+    font-size: 15px;
+}
+
+.place-heading {
+    padding-top: 15px;
+    font-weight: 600;
+}
+
+.place-time {
+    opacity: 0.6;
+    margin-top: 15px;
+}
+
+.place-desc {
+    margin-top: 15px;
+    line-height: 1.4;
+}
+
+.place-buy-btn {
+    color: #fff;
+    background-color: #000;
+    padding: 8px 16px;
+    display: inline-block;
+    margin: 15px 0;
+    text-decoration: none;
+}
+
+.place-buy-btn:hover {
+    background-color: #ccc;
+    color: #000;
 }
 
 .footer {
