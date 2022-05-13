@@ -154,7 +154,7 @@ Nguyên Tắc làm 1 trang website
     position: relative;
     margin-top: 46.5px;
     padding-top: 50%;
-    background: url('/assets/images/slider/slider1.jpg') top center / cover no-repeat;
+    background: url('../images/slider/slider1.jpg') top center / cover no-repeat;
 }
 
 .slider .text-content {
