@@ -22,7 +22,7 @@ Nguyên Tắc làm 1 trang website
     3. Màu sắc
     4. Kiểu dáng (Kiểu chữ, các hình, .....)
 */
-
+/* common */
 .text-white {
     color: #fff !important;
 }
@@ -30,6 +30,31 @@ Nguyên Tắc làm 1 trang website
 .clear {
     clear: both;
 }
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.col-third {
+    width: 33.3333%;
+}
+
+.text-align {
+    text-align: center;
+}
+
+/* header */
 
 .header {
     position: fixed;
@@ -138,10 +163,6 @@ Nguyên Tắc làm 1 trang website
     font-size: 15px;
 }
 
-.content {
-    
-}
-
 .content .section-content {
     padding: 64px 0;
     width: 800px;
@@ -176,10 +197,6 @@ Nguyên Tắc làm 1 trang website
     display: flex;
     justify-content: space-around;
     padding: 32px 0;
-}
-
-.content .member-item {
-    text-align: center;
 }
 
 .content .member-item .member-name {
@@ -234,14 +251,9 @@ Nguyên Tắc làm 1 trang website
 
 .place-list {
     padding: 32px 0;
-    margin: 0 -8px;
 }
 
-.place-item {
-    float: left;
-    width: 33.33333%;
-    padding: 8px;
-}
+
 
 .place-img {
     width: 100%;
@@ -306,7 +318,9 @@ Nguyên Tắc làm 1 trang website
 .modal-container {
     position: relative;
     background-color: #fff;
+    max-width: 900px;
     width: calc(100% - 160px);
+    animation: modalOpen 0.5s;
 }
 
 .modal-close:hover {
@@ -374,7 +388,13 @@ Nguyên Tắc làm 1 trang website
 .modal-help {
     color: #2196F3;
 }
-
-.footer {
-
+@keyframes modalOpen {
+    from {
+        opacity: 0;
+        transform: translateY(-250px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
